@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+
+•⁠ ⁠ {
+  font-family: "Open Sans", sans-serif;
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+#headerName {
+  font-size: 30px;
+  text-align: center;
+  color: rgb(28, 28, 97);
+}
+#headerBar {
+  width: 10%;
+  border-top: 3px solid rgb(155, 155, 66);
+  margin: 0 auto;
+}
+#allButtons {
+  text-align: center;
+  margin: 20px 0px;
+}
+.categoryButton {
+  padding: 7px 20px;
+  background-color: rgb(233, 197, 206);
+  font-size: 15px;
+  border-radius: 5px;
+  margin-left: 8px;
+  border: 2px solid rgb(155, 155, 66);
+}
+.categoryButton:hover {
+  border: 2px solid rgb(28, 28, 97);
+}
+#allDishes {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.dish {
+  display: flex;
+  justify-content: space-around;
+  width: 45%;
+  margin: 10px 10px;
+}
+.dishOuter {
+  margin-left: 10px;
+}
+.dishInner {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dotted black;
+}
+.dishTitle {
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+.dish img {
+  border-radius: 10px;
+  border: 2px solid rgb(155, 155, 66);
+  min-width: 250px;
+  height: 180px;
+  background-size: contain;
+}
+.dishContent {
+  font-size: 13px;
+}
